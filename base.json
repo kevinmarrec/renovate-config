@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default config",
+  "commitBodyTable": true,
+  "extends": [
+    "config:recommended",
+    ":configMigration",
+    ":semanticCommitTypeAll(chore)",
+    ":separateMultipleMajorReleases"
+  ],
+  "labels": ["dependencies"],
+  "rangeStrategy": "bump",
+  "schedule": ["0 7 * * *"],
+  "timezone": "Europe/Paris"
+}
