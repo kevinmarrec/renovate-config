@@ -3,10 +3,15 @@
   "description": "Default config",
   "commitBodyTable": true,
   "extends": [
-    "config:recommended",
     ":configMigration",
+    ":dependencyDashboard",
+    ":disablePeerDependencies",
+    ":ignoreModulesAndTests",
     ":semanticCommitTypeAll(chore)",
-    ":separateMultipleMajorReleases"
+    ":separateMultipleMajorReleases",
+    "mergeConfidence:age-confidence-badges",
+    "replacements:all",
+    "workarounds:all"
   ],
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
