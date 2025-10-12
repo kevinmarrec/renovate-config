@@ -9,6 +9,7 @@
     ":ignoreModulesAndTests",
     ":semanticCommitTypeAll(chore)",
     ":separateMultipleMajorReleases",
+    "group:allNonMajor",
     "mergeConfidence:age-confidence-badges",
     "replacements:all",
     "workarounds:all"
