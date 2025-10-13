@@ -19,6 +19,12 @@
     "enabled": true,
     "schedule": ["* 4-9 * * 6"]
   },
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["major"],
+      "schedule": ["at any time"]
+    }
+  ],
   "commitBodyTable": true,
   "labels": ["dependencies"],
   "reviewers": ["kevinmarrec"]
