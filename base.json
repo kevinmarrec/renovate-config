@@ -1,21 +1,3 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Default config",
-  "commitBodyTable": true,
-  "extends": [
-    ":configMigration",
-    ":dependencyDashboard",
-    ":disablePeerDependencies",
-    ":ignoreModulesAndTests",
-    ":semanticCommitTypeAll(chore)",
-    ":separateMultipleMajorReleases",
-    "group:allNonMajor",
-    "mergeConfidence:age-confidence-badges",
-    "replacements:all",
-    "workarounds:all"
-  ],
-  "labels": ["dependencies"],
-  "rangeStrategy": "bump",
-  "schedule": ["* 0-7 * * *"],
-  "timezone": "Europe/Paris"
+  "extends": ["github>kevinmarrec/renovate-config"]
 }
