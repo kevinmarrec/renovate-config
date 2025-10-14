@@ -17,6 +17,7 @@
   "rangeStrategy": "bump",
   "lockFileMaintenance": {
     "enabled": true,
+    "rangeStrategy": "update-lockfile",
     "schedule": ["* 4-9 * * 6"]
   },
   "packageRules": [
