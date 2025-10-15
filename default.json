@@ -1,6 +1,6 @@
 {
   "description": "Default config",
-  "schedule": ["* 4-9 * * *"],
+  "schedule": ["* 4-9 * * 6"],
   "timezone": "Europe/Paris",
   "extends": [
     ":configMigration",
