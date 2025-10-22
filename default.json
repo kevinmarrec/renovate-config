@@ -19,6 +19,10 @@
     {
       "matchUpdateTypes": ["major"],
       "schedule": ["at any time"]
+    },
+    {
+      "matchPackageNames": ["/vitest/"],
+      "groupName": "vitest"
     }
   ],
   "commitBodyTable": true,
