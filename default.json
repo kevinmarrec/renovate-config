@@ -21,7 +21,7 @@
       "schedule": ["at any time"]
     },
     {
-      "matchPackageNames": ["/vitest/"],
+      "matchSourceUrls": ["https://github.com/vitest-dev/vitest"],
       "groupName": "vitest"
     }
   ],
