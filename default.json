@@ -25,6 +25,10 @@
       "groupName": "vitest"
     }
   ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["* 4-9 * * 6"]
+  },
   "commitBodyTable": true,
   "labels": ["dependencies"],
   "reviewers": ["kevinmarrec"]
