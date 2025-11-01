@@ -19,10 +19,6 @@
     {
       "matchUpdateTypes": ["major"],
       "schedule": ["at any time"]
-    },
-    {
-      "matchSourceUrls": ["https://github.com/vitest-dev/vitest"],
-      "groupName": "vitest"
     }
   ],
   "lockFileMaintenance": {
